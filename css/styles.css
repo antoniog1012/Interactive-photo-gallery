@@ -1,0 +1,25 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    grid-auto-rows: minmax(100px, auto);  
+    justify-content: center;
+    align-content: center;  
+}
+.searchbar {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    height: 25px;
+}
+#search {
+    height: 40px;
+    width: 450px;
+    border-color: lightgrey;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+img {
+    padding: 10px;
+}
